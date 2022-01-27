@@ -1,0 +1,21 @@
+.assign-2-shape-1,
+.assign-2-shape-2,
+.assign-2-shape-3,
+.assign-2-shape-4 {
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  color: white;
+  background-color: rgb(226, 220, 220);
+  background-image: url(../css-assignment-5-8.png);
+}
+.assign-2-shape-1 {
+  background-repeat: no-repeat;
+}
+.assign-2-shape-2 {
+  background-repeat: repeat-y;
+}
+.assign-2-shape-3 {
+  background-repeat: repeat-x;
+}
