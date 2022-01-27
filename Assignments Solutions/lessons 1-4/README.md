@@ -5,23 +5,25 @@
 اكتب في تعليق كل Selector ما الذي يعبر عنه
 
 ```code
-/* Any Element With Class Title */
+/* Any Element With class title */
 .title {
 }
 
-/* Any Element With Id nav */
+/* Any Element With id nav */
 #nav {
 }
 
-/* Any div elemnt in the page*/
+/* Any div element in the page*/
 div {
 }
 
-/* Any h2 elemnt in the page */
+/* Any h2 element in the page */
 h2 {
 }
 ```
+
 ---
+
 ## Assignment 2
 
 اكتب في تعليق نوع كل Style من التالي
