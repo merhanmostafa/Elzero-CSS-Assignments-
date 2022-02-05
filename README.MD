@@ -32,5 +32,5 @@
 >
 > ***`visibility: hidden`*** ---->makes the element invisible to the browser, but it still takes up the same space.  
 >
->***`display: none`*** ----> removes the element completely from the document.   
+>***`display: none`*** ----> removes the element completely from the document.
 >
