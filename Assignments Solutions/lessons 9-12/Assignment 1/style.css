@@ -1,0 +1,20 @@
+.shape {
+  display: inline-block;
+  padding: 30px;
+  margin: 20px;
+  outline: 5px solid #000;
+  font-size: 30px;
+}
+.first {
+  border: 5px solid red;
+}
+
+.second {
+  border: 5px solid;
+  border-color: blue green;
+}
+
+.third {
+  border: 5px dashed;
+  border-color: red green blue yellow;
+}

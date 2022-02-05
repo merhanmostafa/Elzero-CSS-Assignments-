@@ -1,0 +1,20 @@
+.note {
+  width: 400px;
+  margin: 20px;
+  padding: 30px;
+  background-color: rgb(235, 235, 235);
+  border-left: 10px solid;
+  font-size: 20px;
+}
+.first {
+  border-left-color: yellow;
+}
+
+.second {
+  border-left-color: rebeccapurple;
+  visibility: hidden;
+}
+
+.third {
+  border-left-color: seagreen;
+}
