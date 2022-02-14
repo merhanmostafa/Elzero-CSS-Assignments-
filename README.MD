@@ -34,3 +34,20 @@
 >
 >***`display: none`*** ----> removes the element completely from the document.
 >
+
+---
+
+## CSS Units
+
+- Lengths
+
+  |   Absolute length units   |        Relative length units            |
+  |:--------------------------|:----------------------------------------|
+  | cm  (Centimeters)         |  em ( Font size of the parent )         |
+  | mm  (Millimeters)         |  rem  ( Font size of the root element ) |
+  | Q   (Quarter-millimeters) |  vw ( 1% of the viewport's width )      |
+  | in  (Inches)              |  vh  ( 1% of the viewport's height )    |
+  | pc  (Picas)               |  lh ( Line height of the element )      |
+  | px  (Pixels)              |                                         |
+  | pt  (Points)              |                                         |
+  
