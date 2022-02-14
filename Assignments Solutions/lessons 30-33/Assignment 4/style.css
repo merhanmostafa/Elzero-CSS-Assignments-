@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+table {
+  width: 700px;
+  margin: auto;
+}
+
+table td {
+  border: 1px solid white;
+  background-color: #eeeeee;
+  padding: 10px 20px;
+  color: #404040;
+}
+
+table thead td {
+  background-color: #404040;
+  color: white;
+}
+
+table td img {
+  width: 100px;
+  height: 100px;
+}
+
+table td button {
+  text-transform: capitalize;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  color: white;
+}
+
+table td button.view {
+  background-color: #03a9f4;
+}
+
+table td button.delete {
+  background-color: #e91e63;
+}

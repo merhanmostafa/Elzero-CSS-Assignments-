@@ -1,0 +1,39 @@
+.parent {
+  width: 400px;
+  margin: 30px auto;
+}
+
+.outer-li {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #eee;
+}
+
+.first-list {
+  list-style-position: outside;
+  /* list-style: none;
+  counter-reset: section 9 ; */
+}
+
+/* using counter */
+
+/* .first-list LI::before {
+  counter-increment: section;
+  content: counter(section ) ". ";
+} */
+
+.second-list {
+  list-style-type: upper-roman;
+}
+
+.inner-li {
+  margin-top: 10px;
+}
+
+.inner-li li {
+  list-style-position: outside;
+  background-color: white;
+  padding: 6px 10px;
+  margin-bottom: 8px;
+}
