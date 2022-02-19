@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 550px;
+  margin: auto;
+}
+
+.child-one,
+.child-two {
+  background-color: #eeeeee;
+  padding: 20px;
+  display: inline-block;
+}
+
+.child-one span,
+.child-two span {
+  display: block;
+  background-color: #03a9f4;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+}
+
+.div-one,
+.div-two {
+  position: relative;
+  background-color: #dddddd;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 80px;
+  margin-top: 20px;
+}
+.div-one::after {
+  content: "Free";
+}
+
+.div-two::after {
+  content: "$30";
+}
+
+.or {
+  position: relative;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  background-color: #03a9f4;
+  color: white;
+  padding: 8px 10px;
+  margin: 0px 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.or::after,
+.or::before {
+  position: absolute;
+  content: "";
+  width: 1px;
+  background-color: #03a9f4;
+}
+
+.or::after {
+  height: 130px;
+  bottom: 100%;
+  left: 50%;
+}
+
+.or::before {
+  height: 130px;
+  top: 100%;
+  left: 50%;
+}
