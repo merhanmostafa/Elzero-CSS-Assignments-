@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 40%;
+  height: 300px;
+  margin: 80px auto;
+  text-transform: capitalize;
+  text-align: center;
+  background-color: #f2f2f4;
+  padding: 30px;
+  transition: margin-top 0.5s ease-in-out;
+  -webkit-transition: margin-top 0.5s ease-in-out;
+  -moz-transition: margin-top 0.5s ease-in-out;
+  -ms-transition: margin-top 0.5s ease-in-out;
+  -o-transition: margin-top 0.5s ease-in-out;
+}
+
+.parent:hover {
+  margin-top: 0px;
+}
+
+.parent:hover .child {
+  margin-top: 50px;
+}
+
+.child {
+  background-color: #dededc;
+  padding: 30px;
+  margin-top: 10px;
+  transition: margin-top 0s 0.5s ease-in-out;
+  -webkit-transition: margin-top 0s 0.5s ease-in-out;
+  -moz-transition: margin-top 0s 0.5s ease-in-out;
+  -ms-transition: margin-top 0s 0.5s ease-in-out;
+  -o-transition: margin-top 0s 0.5s ease-in-out;
+}
