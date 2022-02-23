@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+input {
+  display: block;
+  width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  outline: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: black;
+  background-color: #eee;
+  caret-color: red;
+  
+  border-image-source: linear-gradient(
+    to right,
+    #f44336 50%,
+    #009688 50%
+  );
+  border-width: 0px 0px 5px 0px;
+  border-image-slice: 1;
+}
