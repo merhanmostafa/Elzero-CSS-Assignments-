@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.page {
+  background-color: #eee;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.page div {
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 5px solid #ff4005;
+  position: relative;
+}
+
+.page div::after {
+  position: absolute;
+  content: ' " ';
+  right: 15px;
+  bottom: -20px;
+  font-size: 55px;
+  color: #a9a9a9;
+  transform: rotate(30deg);
+}
+
+.page h2 {
+  font-size: 18px;
+  color: #000;
+  padding-bottom: 5px;
+}
+
+.page h3 {
+  font-size: 16px;
+  color: #a9a9a9;
+}
+
+.page h2,
+h3 {
+  text-transform: capitalize;
+}
+
+.page .job-description {
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.page .job-description,
+.more-info {
+  line-height: 24px;
+  color: #000;
+}
+
+.osama-mohamed {
+  grid-column: span 2;
+}
+
+.shady-nabil {
+  grid-row: span 3;
+}
+
+.mohamed-ibrahim {
+  grid-row: span 2;
+}
+
+.mahmoud-mohamed {
+  grid-column: span 2;
+}
+
+.ezz-eldin {
+  grid-column: span 2;
+}
+.page .shady-nabil,
+.page .mahmoud-mohamed,
+.page .ibrahim-sayed {
+  background-color: #000;
+}
+.page .shady-nabil h2,
+.page .mahmoud-mohamed h2,
+.page .ibrahim-sayed h2 {
+  color: #fff;
+}
+.page .shady-nabil p,
+.page .mahmoud-mohamed p,
+.page .ibrahim-sayed p {
+  color: #fff;
+}
