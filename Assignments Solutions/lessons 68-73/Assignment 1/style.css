@@ -1,0 +1,42 @@
+h1 {
+  width: 150px;
+  margin: 50px auto;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #ff5722;
+  color: white;
+  font-size: 25px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+h1::after {
+  position: absolute;
+  content: "";
+  background-color: #ff5722;
+  top: 0;
+  width: 95%;
+  height: 100%;
+  z-index: -1;
+  transform: skewX(160deg) skewY(170deg);
+  -webkit-transform: skewX(160deg) skewY(170deg);
+  -moz-transform: skewX(160deg) skewY(170deg);
+  -ms-transform: skewX(160deg) skewY(170deg);
+  -o-transform: skewX(160deg) skewY(170deg);
+}
+
+h1::before {
+  position: absolute;
+  content: "";
+  background-color: #ff5722;
+  top: 0;
+  width: 95%;
+  height: 100%;
+  z-index: -1;
+  transform: skewX(20deg) skewY(10deg);
+  -webkit-transform: skewX(20deg) skewY(10deg);
+  -moz-transform: skewX(20deg) skewY(10deg);
+  -ms-transform: skewX(20deg) skewY(10deg);
+  -o-transform: skewX(20deg) skewY(10deg);
+}
