@@ -1,0 +1,3 @@
+div > div:nth-child(n+2):not(div:last-of-type) , p {
+    color: red;
+}

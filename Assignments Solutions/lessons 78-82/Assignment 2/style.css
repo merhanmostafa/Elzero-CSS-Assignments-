@@ -1,0 +1,3 @@
+.parent:first-of-type .child:last-child {
+  color: red;
+}
