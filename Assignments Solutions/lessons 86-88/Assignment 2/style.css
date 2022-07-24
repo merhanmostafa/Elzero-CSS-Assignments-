@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 20%;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #eee;
+  position: relative;
+}
+
+.arrow::after {
+  position: absolute;
+  content: "";
+  border: 12px solid #eee;
+}
+
+div.arrow.top::after {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: rotate(45deg) translate(-50%, 70%);
+  -webkit-transform: rotate(45deg) translate(-50%, 70%);
+  -moz-transform: rotate(45deg) translate(-50%, 70%);
+  -ms-transform: rotate(45deg) translate(-50%, 70%);
+  -o-transform: rotate(45deg) translate(-50%, 70%);
+}
+
+div.arrow.bottom::after {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: rotate(45deg) translate(-50%, 30%);
+  -webkit-transform: rotate(45deg) translate(-50%, 30%);
+  -moz-transform: rotate(45deg) translate(-50%, 30%);
+  -ms-transform: rotate(45deg) translate(-50%, 30%);
+  -o-transform: rotate(45deg) translate(-50%, 30%);
+}
+
+div.arrow.left::after {
+  left: 6px;
+  transform: rotate(45deg) translate(-50%, 50%);
+  -webkit-transform: rotate(45deg) translate(-50%, 50%);
+  -moz-transform: rotate(45deg) translate(-50%, 50%);
+  -ms-transform: rotate(45deg) translate(-50%, 50%);
+  -o-transform: rotate(45deg) translate(-50%, 50%);
+}
+
+div.arrow.right::after {
+  right: 6px;
+  transform: rotate(45deg) translate(50%, -50%);
+  -webkit-transform: rotate(45deg) translate(50%, -50%);
+  -moz-transform: rotate(45deg) translate(50%, -50%);
+  -ms-transform: rotate(45deg) translate(50%, -50%);
+  -o-transform: rotate(45deg) translate(50%, -50%);
+}
